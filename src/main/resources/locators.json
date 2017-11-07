@@ -1,0 +1,26 @@
+[
+  {
+    "pageName": "HomePage",
+    "name": "abTesting",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(@href,'abtest')]"
+  },
+  {
+    "pageName": "HomePage",
+    "name": "checkBox",
+    "locateUsing": "xpath",
+    "locator": "//a[contains(@href,'checkboxes')]"
+  },
+  {
+    "pageName": "CheckboxPage",
+    "name": "checkBox1",
+    "locateUsing": "xpath",
+    "locator": "//input[@type='checkbox'][1]"
+  },
+  {
+    "pageName": "CheckboxPage",
+    "name": "checkBox2",
+    "locateUsing": "xpath",
+    "locator": "//input[@type='checkbox'][2]"
+  }
+]
